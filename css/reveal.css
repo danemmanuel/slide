@@ -1,7 +1,19 @@
 @charset "UTF-8";
 @font-face {
-    font-family: ScaniaSansBold;
+    font-family: ScaniaSansHeadline;
     src: url(../fonts/ScaniaSansHeadline-Bold.otf);
+}
+@font-face {
+    font-family: ScaniaSansBold;
+    src: url(../fonts/ScaniaSansHeadline-Regular.otf);
+}
+@font-face {
+    font-family: ScaniaSansRegular;
+    src: url(../fonts/ScaniaSans-Regular.otf);
+}
+@font-face {
+    font-family: ArialBold;
+    src: url(../fonts/ScaniaSansCondensed-Bold.otf);
 }
 /*!
  * reveal.js
@@ -64,25 +76,28 @@ body {
 	color: #fff;
 	text-shadow: none;
 }
-
+.pmsflexivel{
+	animation: subtitle 700ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
+	    font-family: ScaniaSansBold !important;
+	font-size:20px !important;
+}
+.toqueaqui{
+	font-family:ScaniaSansBold !important;
+	font-size:35px !important;
+}
 
 /*********************************************
  * HEADERS
  *********************************************/
-.pag1{
 
-	background-image:url(../img/PMS-BG-TELA01.png);
-	background-size: cover;
-	background-position: center center;
-	width: 100%;
-	height: 100%;
-}
 .reveal h1,
 .reveal h2,
 .reveal h3,
 .reveal h4,
 .reveal h5,
 .reveal h6 {
+
+	animation: titlepage 700ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
 	
 	-webkit-hyphens: auto;
 	   -moz-hyphens: auto;
@@ -218,6 +233,7 @@ body {
 
 .reveal strong,
 .reveal b {
+
 	font-weight: bold;
 }
 
@@ -393,7 +409,6 @@ body {
 
 .reveal .controls div.navigate-left {
 	top: 42px;
-
 	border-right-width: 22px;
 	border-right-color: #eee;
 }
@@ -569,7 +584,7 @@ body {
 	display: none;
 	position: absolute;
 	width: 100%;
-	padding: 20px 0px;
+	padding:0px;
 
 	z-index: 10;
 	line-height: 1.2em;
@@ -632,7 +647,7 @@ body {
  *********************************************/
 
 .reveal .slides>section.past {
-	display: block;
+	display: none !important;
 	opacity: 0;
 
 	-webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
@@ -641,7 +656,7 @@ body {
 	        transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
 }
 .reveal .slides>section.future {
-	display: block;
+	display: none !important;
 	opacity: 0;
 
 	-webkit-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);

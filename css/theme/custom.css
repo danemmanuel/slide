@@ -1,0 +1,29 @@
+.pag1{
+	background-image:url(../img/PMS-BG-TELA01.png);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.pag2{
+	text-align:center;
+	background-image:url(../img/PMS-BG-TELA02.png);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.itens-page2{
+	display:flex;
+	align-items: center;
+  justify-content: space-between;
+}
+.page1text {
+  text-align:center;
+}
