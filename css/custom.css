@@ -226,6 +226,7 @@ img{
 	position: fixed;
 	bottom: 50px;
 	right: 50px;
+	    max-width: 100px;
 }
 @keyframes overlay {
    0% {
