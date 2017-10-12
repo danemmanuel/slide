@@ -91,6 +91,17 @@
 	justify-content: center;
 	flex-direction: column;
 }
+.pag10{
+	text-align:center;
+	background-image:url(../img/pag9/background.png);
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+}
 .itens-page2{
 	display:flex;
 	justify-content: space-between;
