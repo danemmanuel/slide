@@ -241,6 +241,13 @@ img{
 	right: 50px;
 
 }
+.contentitens{
+	display: flex;
+	    flex-direction: row;
+}
+.contentitens .item{
+	margin: 0px 50px;
+}
 @keyframes overlay {
    0% {
    	opacity:0;
