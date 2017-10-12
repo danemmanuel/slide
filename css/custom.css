@@ -78,6 +78,18 @@
 	align-items: center;
 	justify-content: center;
 }
+
+.pag9{
+	text-align:center;
+	background-image:url(../img/pag4/PMS-BG-TELA04.png);
+	background-size: 100% 100%;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+}
 .itens-page2{
 	display:flex;
 	justify-content: space-between;
