@@ -80,8 +80,8 @@
 }
 
 .pag9{
-	text-align:center;
-	background-image:url(../img/pag4/PMS-BG-TELA04.png);
+
+	background-image:url(../img/pag6/bg-tela-inicial-rotas.png);
 	background-size: 100% 100%;
 	background-position: center center;
 	width: 100%;
@@ -89,7 +89,6 @@
 	display: flex !important;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
 }
 .itens-page2{
 	display:flex;
