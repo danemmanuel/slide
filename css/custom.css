@@ -248,6 +248,11 @@ img{
 .contentitens .item{
 	margin: 0px 50px;
 }
+.contentpage9{
+	    text-align: left !important;
+    margin-top: -45px !important;
+    margin-left: -375px !important;
+}
 @keyframes overlay {
    0% {
    	opacity:0;
