@@ -139,8 +139,8 @@
 }
 .contentpage4{
 	text-align:left !important;
-	    margin-top: -45px !important;
-    margin-left: 100px !important;
+	margin-top: -45px !important;
+	margin-left: 100px !important;
 }
 .nobold{
 	font-family:ScaniaSansBold !important;
@@ -172,7 +172,7 @@
 .reducao{
 	font-family: ScaniaSansRegular !important;
 	font-size: 30px !important;
-	    line-height: 0px !important;
+	line-height: 0px !important;
 
 }
 .percentt{
@@ -201,7 +201,7 @@
 	opacity:0;
 }
 img{
-		animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
+	animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
 }
 .percentt{
 	animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
@@ -244,57 +244,62 @@ img{
 }
 .contentitens{
 	display: flex;
-	    flex-direction: row;
+	flex-direction: row;
+	margin-top: 50px !important;
 }
 .contentitens .item{
-	margin: 0px 50px;
+	margin: 0px 70px;
+	text-align: center;
+}
+.contentitens .item .text{
+	font-family: ScaniaSansRegular !important;
 }
 .contentpage9{
-	    text-align: left !important;
-    margin-top: -45px !important;
-    margin-left: -375px !important;
+	text-align: left !important;
+	margin-top: -45px !important;
+	margin-left: -375px !important;
 }
 @keyframes overlay {
-   0% {
-   	opacity:0;
-    transform: translateY(-100%)
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1
-  }
+	0% {
+		opacity:0;
+		transform: translateY(-100%)
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1
+	}
 }
 @keyframes itens {
-   0% {
-   	opacity:0;
-    transform: translateY(-50px)
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1
-  }
+	0% {
+		opacity:0;
+		transform: translateY(-50px)
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1
+	}
 }
 
 @keyframes titlepage {
-   0% {
-   	opacity:0;
-    transform: translateX(-50px);
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1
-  }
+	0% {
+		opacity:0;
+		transform: translateX(-50px);
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1
+	}
 }
 
 @keyframes subtitle {
-   0% {
-   	opacity:0;
-    margin-left:50px;
-  }
-  100% {
-    margin-left:-0px;
-    opacity: 1
-  }
+	0% {
+		opacity:0;
+		margin-left:50px;
+	}
+	100% {
+		margin-left:-0px;
+		opacity: 1
+	}
 }
 
 
