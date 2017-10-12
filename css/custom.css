@@ -217,6 +217,16 @@ img{
 .itens-page2:nth-child(2){
 	animation-delay:1s;
 }
+.logoimage{
+	position: fixed;
+	top: 50px;
+	right: 50px;
+}
+.logoescrito{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
 @keyframes overlay {
    0% {
    	opacity:0;
