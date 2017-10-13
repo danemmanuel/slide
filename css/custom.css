@@ -219,6 +219,10 @@
 	opacity: 0;
 	animation: fadein 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
 }
+.slide{
+	opacity: 0;
+	animation: slide 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
+}
 .itens-page5 .item{
 	animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
 }
@@ -276,6 +280,16 @@
 	}
 	100% {
 		transform: translateY(0);
+		opacity: 1
+	}
+}
+@keyframes slide {
+	0% {
+		opacity:0;
+		transform: translateX(-100%)
+	}
+	100% {
+		transform: translateX(0);
 		opacity: 1
 	}
 }
