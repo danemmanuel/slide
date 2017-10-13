@@ -211,15 +211,11 @@
 	animation-delay:0.5s;
 	opacity:0;
 }
-img{
-	animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
-}
+
 .percentt{
 	animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
 }
-.anterior{
-	animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
-}
+
 .itens-page5 .item{
 	animation: itens 600ms cubic-bezier(0.645, 0.045, 0.355, 1) both alternate;
 }
